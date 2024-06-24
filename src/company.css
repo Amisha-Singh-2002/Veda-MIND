@@ -1,0 +1,19 @@
+.companydownload{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.companydownload img{
+    width:5vw;
+    padding-right:2vw;
+    padding-left: 2vw;
+}
+.companydownload img:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s;
+}
+@media(max-width:750px){
+    .companydownload img{
+        width:10vw;
+    }
+}

@@ -1,0 +1,83 @@
+.chatout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-height:70vh;
+    overflow-y: hidden;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+.chatsearch{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+.chatsearch input{
+    margin-top: 10px;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+.chatsearch button{
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 0 5px 5px 0;
+    outline: none;
+    background: rgb(34, 140, 210);
+    color: white;
+    font-family: var(--font-family);
+
+}
+.chatsearch button:hover{
+    background: rgb(0, 25, 41);
+    transform: scale(1.1);  
+    color: white;
+    font-family: var(--font-family);
+}
+.chatin{
+    height:70vh;
+    width:50vw;
+    max-width: 100vw;
+    overflow-x: hidden;
+    max-height: 65vh;
+    overflow-y:scroll;
+    color:white;
+    padding:25px;
+}
+
+.chatin::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .chatin {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+  .chatin h1{
+    color: black;
+    font-size: 1.5rem;
+    margin: 1px;
+    height: auto;
+    background: rgb(34, 140, 210);
+    box-shadow: 5px -2px 5px darkgray, lightgreen 0px 0px 3px inset;
+    padding: 10px;
+    border-radius: 10px;
+    font-family:var(--font-family);
+  }
+  .chatin h3{
+    font-family: var(--font-family);
+    color: rgb(2, 14, 23);
+    font-size: 1rem;
+    margin: 3px;
+    background: rgb(34, 140, 210);
+    box-shadow: 5px -2px 5px darkgray, lightgreen 0px 0px 3px inset;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }

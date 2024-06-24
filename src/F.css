@@ -1,0 +1,69 @@
+.Fmain{
+    color: seashell;
+}
+.Fmain h1{
+    text-align: center;
+    font-size: 90px;
+    color: rgb(41, 236, 233);
+    margin: 50px;
+}
+.f1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   border:0.1px solid #ccc;
+    border-radius: 5px;
+   margin-left: 620PX;
+   margin-right: 620px;
+   font-family:  sans-serif;
+   font-size: 15px;
+   margin-bottom: 30px;
+   margin-top: 0px;
+   
+}
+.f2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border:0.1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 600PX;
+    margin-right: 600px;
+    font-family:  sans-serif;
+   
+} */
+}
+.f2b h4{
+     font-size: 25px;
+}
+.f2b h5{
+    font-size: 15px;
+}
+.f2c h4{
+    font-size: 25px;
+}
+.f2c h5{
+   font-size: 15px;
+}
+.f2b{
+    margin-top: 50px;
+}
+.f2d h4{
+    font-size: 25px;
+}
+.f2d h5{
+   font-size: 15px;
+}
+.f2a h2{
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+.f2a h5{
+   font-size: medium;
+}
+.f3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
