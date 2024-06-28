@@ -7,10 +7,12 @@ import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/clerk-reac
 const Menu = () => (
   <>
     <p><a href='/'>Home</a></p>
-    <p><a href='/VedaMind'>What is VedaMind?</a></p>
+    
     <p><a href='/chat'>Chatnow</a></p>
-    <p><a href='/About'>About</a></p>
+    
     <p><a href='/Form'>Form</a></p>
+    <p><a href='/VedaMind'>What is VedaMind?</a></p>
+    <p><a href='/About'>About</a></p>
   </>
 )
 
