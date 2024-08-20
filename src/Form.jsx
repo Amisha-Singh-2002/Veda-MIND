@@ -33,7 +33,7 @@ const Form = () => {
   return (
     <div className="formout">
         <h1>Form</h1>
-        <input onChange={f1} type="text" placeholder="Enter your name" />
+        <input  type="text" placeholder="Enter your name" />
         <input onChange={f2} type="email" placeholder="Enter your email" />
         <input onChange={f3} type="number" placeholder="Enter your roll" />
         <input onChange={f4} type="text" placeholder="Enter your department" />

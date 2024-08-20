@@ -22,7 +22,7 @@ function App() {
             <Route path="/Form" element={<Form />} />
             <Route path="/" element={<Landing />} />
             <Route path="/home" element={<Home />} />
-            <Route path="*" element={<h1>404 Not Found</h1>} />
+           
             <Route path="/chat" element={<Chat/>} />
             <Route path="/About" element={<About/>} />
             <Route path="/VedaMind" element={<VedaMind/>} />
