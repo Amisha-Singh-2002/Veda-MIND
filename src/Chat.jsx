@@ -7,7 +7,8 @@ function Chat() {
   const [total,settotal]=useState([])//state for storing the total data of the chat
     const [messages, setMessages] = useState("")//state for storing the messages
     const [question, setquestion] = useState("")//state for storing the question
-    const genAI = new GoogleGenerativeAI("AIzaSyDX6XM4hiJnehoKcjE1eybI-fo6jkLFloM");//creating the object of the google generative ai
+    const apikey=import.meta.env.GEMINI_API;//getting the api key from the environment variable
+    const genAI = new GoogleGenerativeAI("AIzaSyAilZxzsRunURHeZqxnBdIaEjvq7j2YXjI");//creating the object of the google generative ai
     const [flag,setflag] = useState(false);//state for storing the flag
     const [data,setdata]=useState("...")//state for storing the data
     
